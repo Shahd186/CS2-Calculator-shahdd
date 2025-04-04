@@ -1,7 +1,8 @@
 # CS2 calculator project
 # This project aims to apply basic operations (addition, subtraction, multiplication, and division) on two numbers. It also includes functionalities to find the factorial of a number, the greatest common divisor (GCD), the least common multiple (LCM), and generate a random number within a given range.
+# Additional feature: this calculator supports parsing and evaluating mathematical expressions 
 
-This project was established by Shahd Elfeky. 
+This project was established by Shahd Elfeky and Mariam Ibrahim. 
 
 Installation & Setup guide:
 
