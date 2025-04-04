@@ -16,5 +16,12 @@ int main() {
     cout << "LCM (4, 6): " << lcm(4, 6) << endl;
     cout << "Random number (1 to 10): " << generateRandom(1, 10) << endl;
 
+    cout << "Testing Expression Parsing:\n";
+    string expr1 = "3 + 4 * (2 - 1) / 5";
+    cout << expr1 << " = " << evaluateExpression(expr1) << endl;
+    string expr2 = "(10 + 2) * 3";
+    cout << expr2 << " = " << evaluateExpression(expr2) << endl;
+    string expr3 = "100 / (5 + 5)";
+    cout << expr3 << " = " << evaluateExpression(expr3) << endl;
     return 0;
 }
